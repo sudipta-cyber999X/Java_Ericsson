@@ -1,0 +1,31 @@
+## STRING BUILDER
+
+As we've learned in the last class that String is immutable. That is, if you've created a String in the
+memory one time, you can't add, delete anything.
+To do the updation operations we need to create new String. 
+The process to create a new String is a bit time-taking. 
+So, to solve this problem, we've created a new class i.e., String Builder. 
+
+## STRING IS IMMUTABLE 
+-> Datas in JAVA are stored in the form of STACK (placing Objects one above the another) in Memory and some
+part of the code is stored in Heap. 
+e.g.,
+    String str = "h";
+-> "h" is stored in the HEAP; "str" is stored in STACK 
+-> "str" would be pointing towards "h"
+
+## FUNCTIONS
+
+1. setCharAt(int index, char) 
+
+2. insert(int index, char)
+
+3. Delete substring
+-> .delete(start index, end index); // Here the End Index is non-inclusive
+-> e.g.,
+sb.delete(2, 3); -> i.e., only index-2 will get deleted!
+
+4. append -> add in the last position
+-> sb.append('o')
+
+5. sb.length();

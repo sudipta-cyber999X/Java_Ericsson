@@ -1,0 +1,64 @@
+## STRING DECLARATION
+
+String name = "Tony";
+String fullName = "Tony Stark";
+String sentence = "I am IronMan";
+
+-> Scanner sc = new Scanner (System.in);
+Here, Scanner is a class; sc is an Object; And we used new keyword to define that Object;
+So, Scanner is also a non-primitive dataType in JAVA.
+
+# To take INPUT: 
+-> String name = sc.next();
+String is a single token. For taking input morethan a single word we should use: 
+-> sc.nextLine(); 
+
+## FUNCTIONS IN JAVA:
+1. concatenation: Joining two Strings.
+Using, '+'; sout also does the same thing. It converts into string and then concatenate.
+
+2. String contains a built-in method to calculate the length of the string.
+-> length()
+-> i.e., say, fullName.length();
+
+3. To print all the charcters present in the String.
+-> Method: charAt()
+-> for (int i = 0; i < fullName.length(); i++) {
+            System.out.println(fullName.charAt(i));
+        }
+
+4. Compare two Strings
+-> Use function: .compareTo();
+-> if(name1.comapreTo(name2)) {
+
+}
+-> Basically, it checks 3-cases:
+-> 1. String1 > String2 : Returns -> +ve value
+-> 2. String1 == String2 : Returns: 0
+-> 3. String1 < String2 : Returns: -ve value
+
+if (name1.compareTo(name2) == 0) {
+            System.out.println("Strings are equal.");
+} else {
+            System.out.println("Strings are not equal.");
+}
+OUTPUT -> Strings are equal
+
+CASE-2:
+if (new String("Tony") == new String("Tony)) {
+    System.out.println("Strings are equal");
+} else {
+    System.out.println("Strings are not equal");
+}
+OUTPUT -> Strings are not equal
+
+This happened because: In JAVA Strings are Objects. 
+
+5. Sub-Strings: Say I'm given a String and from that I need to take a small part of it!
+-> Use: Function named: .substring(int beginIndex, int endIndex);
+e.g.,
+String finalName = sentence.substring(10, sentence.length());
+// This concept is also known as Parsing!
+
+6. Strings are Immutable: A String cannot be changed. NO deletion, No Updation, No modification.
+To change we've to create a new String. 

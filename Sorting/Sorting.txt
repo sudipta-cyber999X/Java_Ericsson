@@ -1,0 +1,14 @@
+## SORTING
+
+In Arrays in JAVA we have an inbuilt function for sorting the elements in Array. 
+In Recursion we would be learning Sorting using BACKTRACKING.
+
+#1. BUBBLE SORT 
+7 8 3 1 2
+-> In bubble Sort we push the Heaviest element to the last. Then 2nd most heaviest element to the 2nd last.
+till it gets sorted in Ascending Order. Similarly by reversing the Condition we can do it in descending 
+order.
+-> It runs loops for the (n - 1) times!.
+-> We would compare the adjacent elements. 
+
+#2. SELECTION SORT 

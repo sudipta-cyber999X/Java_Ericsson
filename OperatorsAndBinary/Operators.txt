@@ -1,0 +1,49 @@
+## OPERATORS
+-> Symbols that tells compiler to perform some operation 
+
+Operators (Symbols), Operands 
+-> Binary Operators: Operators that perform functions between two Operands 
+
+1. ARITHMETIC OPERATORS
+let take the variables as A = 10, B = 5;
+-> Binary Operators: 
++
+-
+*
+/
+%
+
+-> Unary Operators: Works on one Operand 
+++ (increment)
+-- (decrement)
+They are of two types;
+1. Pre-Increment / Pre-Decrement
+-> ++a; --a;
+-> Change Value then, Use Value
+
+2. Post-Increment/ Post-Decrement
+-> a++; a--;
+-> Use Value, then Change Value
+
+## BITWISE OPERATORS 
+-> Useful for Bit Manipulation incase of Dynamic Programming!
+-> Space, Memory Consumption gets decreased too.
+e.g.,
+A = 0101, B = 0110
+
+## OPERATORS:
+1. & (Binary AND) -> A & B = 0100
+2. | (Binary OR) -> A | B = 0111
+3. ^ (Binary XOR) -> A ^ B = 0011 //Similar Values = Returns FALSE; Different Values = Return TRUE;
+4. ~ (Binary One's Complement) -> A ~ B = 
+5. << (Binary Left Shift) -> Say, B = 0110 << 1 => B = 1100 (OUTPUT)
+6. >> (Binary Right Shift) -> Say, A = 0101 >> 1 => A = 0010 (OUTPUT)
+
+## ASSIGNMENT OPERATORS
+1. =
+2. +=
+3. -=
+4. *=
+5. /=
+
+

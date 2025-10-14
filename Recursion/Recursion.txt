@@ -1,0 +1,41 @@
+## RECURSION
+-> A function that calls itself
+
+Prerequisites:
+Iteration/ Loops
+Functions
+
+Recursion -> Useful for Trees, Graphs
+
+f(x) = x^2 (Given)
+f(f(x)) = f(x^2) 
+
+[func] -> [func] -> [func] -> ... -> till BASE Condition is reached.
+
+[NB: Shortcut in VSCode -> sout / syso]
+
+## WHAT HAPPENS IN MEMORY: 
+-> Recursive calls are in the form of stack.
+
+-> FORMAT: 
+1. Class name and parameters declaration
+2. Base Case 
+3. Print Statement
+4. Recursion Call 
+
+-> 
+1.  Calls the Main func
+2. print n = 5 (Checks the base case in each layer and then print)
+3. print n = 4
+4. print n = 3
+5. print n = 2
+6. print n = 1 (Checks the base condition and then print n = 1)
+7. Calls n = 0 (Checks base case and its true, So return to the previous layer) 
+
+In case of iteration: The value Memory Space is utilised efficiently as the variables keeps on updating and
+thus utilise the memory. 
+While, in case of Recursion new space is allocated in the Stack each time we call the variables thus, 
+resulting in the more use of Memory Space. 
+So, in Recursion if we don't apply the Base Condition, after a certain point the Memory gets fully filled
+and that condition is known as STACK OVERFLOW. And this is an error in the code. 
+

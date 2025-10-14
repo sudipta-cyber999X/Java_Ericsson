@@ -1,0 +1,61 @@
+## FUNCTIONS IN JAVA
+
+-> Basicallly Functions in JAVA are block of code 
+=> That takes INPUT 
+=> Do some OPERATIONS 
+=> And produces some OUTPUT.
+
+e.g., Thermometer: 
+Input: Touch of the human body
+Performs some kind of OPERATIONS
+shows the Temperature of the body as OUTPUT. 
+
+## METHOD OF WRITING A FUNCTION
+
+returnType functionName (type arg1, type arg2,..) {
+    //operations
+}
+
+-> NAMING CONVENTION: 
+There are multiple ways of naming a Variable or a functionName say,
+1. printmyname
+2. print_my_name -> used in PYTHON!
+3. printMyName {Camel Case} -> Preferred in JAVA! 
+
+-> returnType: int, float, String, etc. DataTypes!
+
+if, Function having:
+int type -> integer type variable can be returned.
+float type -> float type variable can be returned.
+void -> NO return!
+    |-> e.g., public static void main ()
+    |-> here, public static <- are the keywords!
+
+# FunctionName: can not be a keyword.
+
+#ARGUMENTS:
+1. Define type of argument!
+2. Argument Name!
+3. Different return types arguments can be passed at the sametime in the same function!.
+
+||==> The Arguments can be passed in two-ways i.e., 1. By Reference or,2.By Value
+
+
+## WHAT HAPPENS IN MEMORY?
+|-> 
+Lets say there are two functions:
+
+public static void newFunction () {
+    //Do-Somthing!
+}
+punlic static void main () {
+    // Call function: newFunction
+}
+
+||==>> Now, all the functions are stored in the MEMORY in the form of STACK!
+and, the level at which single item is stored is called STACK FRAME!
+So, whenever a main function is created, the first Stack Frame in the memory would be of main function.
+-> All the variables of main function are stored in this area of stack.
+Again, main function call newFunction another Stack Frame is placed above main function. 
+-> All the variables of newFunction are stored in this block (of newFunction) in the area of Stack.
+SO, MORE no. of functions in a program resulting in a MORE STACK FRAME in the Memory. 

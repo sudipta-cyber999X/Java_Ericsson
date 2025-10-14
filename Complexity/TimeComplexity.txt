@@ -1,0 +1,35 @@
+# TIME COMPLEXITY
+-> Relation between Input Size & Running Time (Operations)
+e.g.,
+1. =>
+main () {
+    print(); -----> 1 operation time 
+}
+2. => 
+main () {
+    print();
+    print(); -----> 2 * 1 operation time 
+}
+These, two are examples of small operations!
+Now as we more further the input size keeps on increasing!
+
+Scanner -> input a variable "n"
+for (int i to n) {
+    print("hello"); ----> 1 time * n times repeat! 
+} 
+So, with change in "Input Size" the "Running time" also changes; 
+that could be Linear relationship, Quadratic, Cubic, logn, square root!
+
+e.g.,
+[Time Complexity "directly proportional to" input n]
+
+# TYPES OF TIME COMPLEXITY:
+1. Best Case -> Omega(1)
+2. Average Case -> Theta((n+1)/2)
+3. Worst Case -> Big O(n)
+
+whenever we would talk about time-Complexity we would take the Worst Case => using Big O.
+There is another theorem regarding time-complexity: Known as Master's Theorem.
+
+e.g., 
+Order-1: Numbers: {1,2,3,4,5}; Search for 1

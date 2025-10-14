@@ -1,0 +1,9 @@
+## BINARY NUMBER SYSTEM
+-> Base 2
+-> 2 digits -> 0 and 1
+
+## OCTAL NUMBER SYSTEM
+-> Base 8 
+
+## HEXADECIMAL NUMBER SYSTEM 
+-> Base 16

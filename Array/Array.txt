@@ -1,0 +1,45 @@
+# ARRAYS
+-> List of items of the same type.
+
+e.g., 
+english = 95
+physics = 97
+chemistry = 98
+
+# DEFINING AN ARRAY (1)
+
+type[] arrayName = new type[size];
+
+// new -> is a keyword; we use it to create a new space in the memory.
+e.g.,
+int[] marks = new int[3];
+-> To access: 
+marks[0] = 97;
+marks[1] = 95;
+marks[2] = 95;
+// JAVA follows 0-based indexing
+Now, if we want to print the marks: let's say-
+System.out.println(marks); 
+
+->OUTPUT: [I@28a418fc <- Jargons gets printed!
+Jargons means ? A garbage value that is not required for our usage.
+This is happening as a mixture of Hash-code and Class name is getting printed.
+
+-> ANOTHER WAY of ARRAY declaration:
+int marks[] = new int[3];
+
+# WHAT HAPPENS IN MEMORY?
+-> *The memory addresses are stored in hexadecimal
+
+# DEFINING AN ARRAY (2)
+
+type[] arrayName = {1, 2, 3, 4, 5, 6};
+
+//For printing the elements
+for (int i = 0; i < 6; i++) {
+    System.out.println(marks[i]);
+}
+
+# ARRAY PROPERTY: length
+-> this property stores the length of the array! 
+-> i.e., numbers.length => indirectly the SIZE! 

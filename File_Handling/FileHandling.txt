@@ -1,0 +1,15 @@
+## FILE HANDLING in JAVA
+----------------------------
+- Create a folder
+- Check if a folder exists
+- Rename a folder 
+- Delete a folder
+----------------------------
+Create the file 
+Write data in the file 
+Read data from the file
+Rename the file
+Delete the file 
+
+-> java.io.File 
+

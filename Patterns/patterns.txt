@@ -1,0 +1,11 @@
+## NESTED FOR-LOOP
+
+for (...) {
+    for (...) {
+
+    }
+}
+
+-> Think of patterns as Matrix form
+ROWS -> done by Outer loop
+COLS -> done by Inner loop

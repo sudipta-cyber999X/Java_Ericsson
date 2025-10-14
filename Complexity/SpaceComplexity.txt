@@ -1,0 +1,3 @@
+## SPACE COMPLEXITY
+-> Space Complexity determines how much space the code is taking in the memory!
+-> That depends upon how many variables are present in the program.

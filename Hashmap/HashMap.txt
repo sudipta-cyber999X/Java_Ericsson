@@ -1,0 +1,16 @@
+#HASHMAP
+-> is a DS that stores data in the form of ( Key <-> Value ) pair mapping.
+
+#Frequency Mapping: 
+Pens - 100
+Pencils - 200
+Notebooks - 20
+It's a Count Map
+
+-> Incase of Hashmap for the processes like
+Searching, Insertion, Deletion, Contains
+the time-complexity is O(1). 
+
+# HASHMAP HIERARCHY:
+Map-interface -> Hashmap, LinkedHashMap, SortedMap -> TreeMap
+

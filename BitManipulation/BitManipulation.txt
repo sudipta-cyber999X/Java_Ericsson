@@ -1,0 +1,71 @@
+## BIT MANIPULATION 
+We've studied about Left Shift Operator as well as Right Shift Operator 
+There are operations to be performed: 
+1. Get bit 
+2. Set bit 
+3. Clear bit 
+4. Update bit 
+
+#1. GET BIT OPERATION 
+Q. Get the 3rd bit (position = 2) of a number n. (n = 0101) 
+-> 
+Process: 1. Bit Mask: 1 << i; 2. Operation: AND  
+[NOTE: Bit Mask -> means Manipulating all the bits of a Number.]
+n = 0101 
+(i)
+1 << 2
+0001 << 2
+0100 << 2 (Bit Mask)
+(ii) Bit Mask AND n (here, 0101)
+=> 0100 AND 0101 
+=> 0100 
+If the final Number is non-Zero, our bit was 1
+If the final Number is Zero, our bit was 0
+
+Q2. n = 0101, check for position -> 3
+-> (i) Bit Mask generation
+1 << 3
+0001 << 3
+1000 << 3 (Bit Mask)
+(ii) Bit Mask AND n
+1000 & 0101 -> 0000
+Therefore, our bit at pos = 3 was Zero.
+
+## SET BIT OPERATION
+(i) Bit Mask, i << pos;
+(ii) Bit Mask OR n 
+
+Q1. Set the 2nd bit of a number n = 0101.
+-> (i)
+2nd bit -> position = 1.
+1 << i (i = 1)
+0001 << 1
+0010 << 1
+(ii) Bit Mask OR n 
+0010 | 0101
+=> 0111 (Answer)
+
+## CLEAR BIT OPERATION
+-> go to a particular bit and clear or set the bit to Zero.
+Steps:
+(i) Bit Mask: 1 << i 
+(ii) Operation And with NOT of BM 
+
+Q1. Clear the 3rd bit (Position = 2) of a number n. (n = 0101)
+-> (i)
+1 << 2 
+0001 << 2 => 0100 << 2;
+(ii) And with NOT
+~ (0100) => 1011
+1011 & 0101 => 0001 (Final Answer)
+
+## UPDATE BIT OPERATION
+For 0: (Use CLEAR BIT)
+Bit Mask: 1 << i
+Operation: AND with NOT
+
+For 1: (Use SET BIT)
+Bit Mask: 1 << i 
+Operation: OR 
+
+Q1. Update the 2nd bit of a number n to 1. (n = 0101)

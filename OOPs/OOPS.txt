@@ -1,0 +1,22 @@
+## OOPS 
+
+//Student Object
+        Student s1 = new Student(); 
+        /* whenever we use new keyword a new space is created in heap where the objects get stored. 
+         * Student() -> a special type of function named Constructor in Java. Thry don't  return anything
+         * i.e., they don't have any return type.
+         * For 1 object, Constructor can be called only once.
+        */
+
+TYPES: 
+1. Non-parameterised Constructor
+2. Parameterised Constructors
+
+## POLYMORPHISM
+1. Func Overloading
+2. Func Overriding
+
+//Compile Time Polymorphism -> Func Overloading
+
+
+NB: Constructor Chaining

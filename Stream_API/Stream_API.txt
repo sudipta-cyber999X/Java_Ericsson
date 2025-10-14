@@ -1,0 +1,2 @@
+Stream API is a game changer when it comes to data processing.
+Stream API is used to process a data stream. 

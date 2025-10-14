@@ -1,0 +1,7 @@
+So, you've two choices for taking the input in JAVA.
+
+For showing output in the console: We use 
+System.out.println("Enter a number");
+-> where, println is a method.
+
+In c++, we use cin, cout...

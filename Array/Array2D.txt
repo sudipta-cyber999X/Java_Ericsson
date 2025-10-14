@@ -1,0 +1,26 @@
+## Array 2D 
+-> It would be useful for future complex problems or say in Dynamic Programming!
+-> Tabulations like problems
+
+2D Array -> Matrix studied in Matehmatics
+that contains rows and columns. and had specific numbering
+Cell -> (rows, cols): To find location of the element
+The numbering begins with (0, 0) -> as JAVA language follows 0-based indexing.
+-> (3 X 5) -> rows = 3 & columns = 5
+  | 0| 1| 2| 3| 4|
+ 0|  |  |  |  |  |
+ 1|  |  |  |  |  |
+ 2|  |  |  |  |  |
+
+Memory Consumption in 2D-Array:
+=> (rows * columns) * dataTypeSize
+In this case, 3*5*4 = 60 bytes
+
+## 2D-ARRAY DECLARATION:
+
+type[][] arrayName = new type[rows][columns];
+
+e.g.,
+int[][] numbers = new int[3][5]; 
+=> numbers is the MATRIX here with rows = 3 and cols = 5;
+

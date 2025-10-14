@@ -1,0 +1,38 @@
+#INTRODUCTION TO IOSTREAMS (java.io package)
+https://www.youtube.com/watch?v=Qn0ciOpuT4s&list=PLVlQHNRLflP_ccU_tekCCCy3aQMXB9q-c&index=1
+
+#SESSION-1
+
+-> We would be learning about all the pre defined classes under java.io package
+-> iostream, file iostream, file handling all are correct but file handling deals only with file input/
+output not the keyboard & console.
+-> not only performs file input / output or reading and writing from keyboard and display to console 
+
+-> IOSTREAMS chapter -> providing API means predefined classes for storing data inside a file & reading
+data from a file. 
+
+What is the need of this chapter ? 
+-> Learn how to store data permanently inside a file, how to read peramanent data from a file.
+
+Diagram: 
+
+                                                 IOSTREAMS
+[keyboard] ----(System.in), reading ---->   {predefined classes} ------(store)-----> File (abc.txt)
+[Console] <----(System.out), Writing-----   {predefined classes} <-----(reading)---- File (abc.txt)
+          <----(System.err)--------------
+
+#SESSION-2
+Need of IO Streams ?
+-> For storing data permanently in HDD. e.g., take the example of Banking System! 
+-> If everything is stored in RAM and take the example of acct opening pay 10k and if we restart the system
+it becomes 0. Is that feasible ? 
+But, for information: we don't use IO Stream in the Banking System due to security issues. We store 
+Business values rather in database concept. 
+To interact with the database we are using JDBC API i.e., store data in database permanently. 
+
+#SESSION-3 
+Streams and Types of Streams:
+-> What is a Stream ? 
+-> A Stream is a logical connection between JAVA Program and a File through which we can transfer data
+either for storing or for reading. 
+Can we see the connection ? No it's not a Physical Connection. 

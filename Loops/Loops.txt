@@ -1,0 +1,28 @@
+## FOR LOOP:
+
+for (initialisation; condition; updation) {
+    //Code 
+}
+
+-> we take a counter variable 
+-> int counter = 0;  
+-> counter = counter + 1
+-> Terminating condition: counter < 100; 
+-> print statement in between the curly braces { } of the for loop.
+
+-> For infinite loop: Don't add any termination Condition!
+
+## WHILE LOOP: 
+
+while (condition) {
+    // Do Something
+}
+
+## DO-WHILE LOOP
+
+do {
+    // Code
+} while(condition);
+
+-> do-while loop doesn't check the condition for the first time only. 
+-> and remember to add the "terminator" after while in do-while loop.
